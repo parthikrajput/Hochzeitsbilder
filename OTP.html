@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./src/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./src/fonts/font.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+
+<body>
+    <header class="py-4 fixed top-0 left-0 w-full bg-white z-50">
+        <div class="container">
+            <div class="header-wrapper flex items-center gap-2 justify-between">
+                <div class="logo 2xl:w-[249px] w-[190px] flex-none">
+                    <img src="./src/img/logo.svg" alt="logo">
+                </div>
+                <nav
+                    class="absolute top-0 left-[-1000px] w-[300px] h-screen bg-green z-40 transition-all duration-1000 ease-in-out lg:w-auto lg:left-0 lg:relative lg:h-auto lg:bg-transparent">
+                    <ul
+                        class="flex 2xl:gap-10 gap-6 lg:gap-4 items-start lg:p-0 pl-7 pr-4 pt-14 lg:items-center *:2xl:text-a *:lg:text-p *:lg:text-primary text-white lg:flex-row flex-col text-a ">
+                        <li><a href="#" aria-label="">Start</a></li>
+                        <li><a href="#" aria-label="">Wie funktioniert es?</a></li>
+                        <li><a href="#" aria-label="">Features</a></li>
+                        <li><a href="#" aria-label="">Preise</a></li>
+                        <li><a href="#" aria-label="">Häufige Fragen / FAQ</a></li>
+                    </ul>
+                    <div class="close-icon lg:hidden block absolute top-6 right-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="22" width="20" viewBox="0 0 448 512">
+                            <path
+                                d="M342.6 150.6a32 32 0 0 0-45.3-45.3L192 210.7 86.6 105.4a32 32 0 0 0-45.3 45.3L146.7 256 41.4 361.4a32 32 0 0 0 45.3 45.3L192 301.3l105.4 105.3a32 32 0 0 0 45.3-45.3L237.3 256l105.3-105.4z"
+                                fill="#fff"></path>
+                        </svg>
+                    </div>
+                </nav>
+                <div class="login flex items-center 2xl:gap-9 gap-4">
+                    <div class="link sm:block hidden *:2xl:text-a *:text-p *:text-primary">
+                        <a href="#" aria-label="">Anmelden / Login</a>
+                    </div>
+                    <a href="#" class="btn sm:flex hidden " aria-label="">QR-Code erstellen</a>
+                    <div class="menu lg:hidden   block">
+                        <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="22" width="20"
+                            viewBox="0 0 448 512">
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                                style="fill: #143C5D;"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="step-1 pt-24 sm:pt-40 pb-14 sm:pb-20 xlg:pb-32">
+            <div class="step-verify max-w-[1320px] mx-auto px-4 space-y-10">
+                <div class="com-title text-center space-y-5">
+                    <h2 class="text-h2 text-primary">Sicher ist sicher</h2>
+                    <div class="text text-h5 text-primary space-y-4 *:font-normal">
+                        <p>Zwei-Faktor-Authentifizierung (2FA) erhöht die Sicherheit deines Kontos durch eine
+                            zusätzliche Bestätigungsmethode.
+                            <b>Aktiviere direkt jetzt die 2FA und dein Konto ist ideal geschützt!</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="max-w-[514px] mx-auto space-y-4">
+                    <a href="#" aria-label="" class="back flex items-center gap-2"><svg width="16" height="16"
+                            viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.86 8.49274L9.342 13.2887C9.987 13.8547 11 13.3947 11 12.5357L11 2.94374C11.0002 2.75149 10.9449 2.56327 10.8409 2.40162C10.7368 2.23997 10.5884 2.11174 10.4133 2.03229C10.2383 1.95283 10.044 1.92552 9.85382 1.95362C9.66364 1.98172 9.48559 2.06405 9.341 2.19073L3.861 6.98674C3.75359 7.0806 3.6675 7.19635 3.60852 7.32623C3.54954 7.4561 3.51902 7.59709 3.51902 7.73974C3.51902 7.88238 3.54954 8.02337 3.60852 8.15324C3.6675 8.28312 3.75359 8.39887 3.861 8.49274L3.86 8.49274Z"
+                                fill="#3E75C0" />
+                        </svg>
+                        Back</a>
+                    <div class="text-p text-gray-300 text-center">Enter the code that you see in your authenticator app
+                    </div>
+                    <div class="otp space-y-2">
+                        <div
+                            class="otp-input flex items-center justify-center mx-auto gap-1 *:p-0 *:text-center *:outline-none *:w-[28px] *:h-[38px] *:border-primary *:text-p *:text-gray">
+                            <input type="text" maxlength="1" required="">
+                            <input type="text" maxlength="1" required="">
+                            <input type="text" maxlength="1" required="">
+                            <input type="text" maxlength="1" required="">
+                            <input type="text" maxlength="1" required="">
+                            <input type="text" maxlength="1" required="">
+                        </div>
+                        <p id="error-message" class="text-red text-p_1 text-center hidden">Invalid code. Maybe you
+                            should reset
+                            your
+                            time zone and/or try again.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="bg-primary py-10 lg:py-14">
+        <div class="max-w-[1440px] mx-auto px-4 flex flex-wrap gap-5 sm:gap-10">
+            <div class="lg:w-[calc(33.33%-27px)] w-full flex flex-col space-y-4 ">
+                <div class="logo">
+                    <a href="#" aria-label=""><img src="./src/img/f-logo.svg" alt="logo"></a>
+                </div>
+                <div class="text text-a text-white">
+                    <a href="mailto:hochzeitsbilder.app" aria-label=""><b>Hochzeitsbilder.app</b></a>
+                    <p>Die einzigartige App um Bilder eurer Feier einfach zu teilen und einzigartige Momente
+                        festzuhalten.
+                    </p>
+                </div>
+            </div>
+            <div class="sm:w-[calc(50%-20px)] w-full lg:w-[calc(33.33%-27px)] flex flex-col gap-5">
+                <div class="title text-white text-text font-semibold">
+                    <p>Hochzeitsbilder.app</p>
+                </div>
+                <ul class="*:text-p *:text-white-light_op space-y-4">
+                    <li><a href="#" aria-label="">Wie funktioniert es?</a></li>
+                    <li><a href="#" aria-label="">Features</a></li>
+                    <li><a href="#" aria-label="">Preise</a></li>
+                    <li><a href="#" aria-label="">Häufige Fragen / FAQ</a></li>
+                    <li><a href="#" aria-label="">Affiliate Programm / Wiederverkäufer</a></li>
+                </ul>
+            </div>
+            <div class="sm:w-[calc(50%-20px)] w-full lg:w-[calc(33.33%-27px)] flex flex-col gap-5">
+                <div class="title text-white text-text font-semibold">
+                    <p>Rechtliches</p>
+                </div>
+                <ul class="*:text-p *:text-white-light_op space-y-4">
+                    <li><a href="#" aria-label="">Datenschutzerklärung</a></li>
+                    <li><a href="#" aria-label="">Impressum</a></li>
+                    <li><a href="#" aria-label="">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/js/script.js"></script>
+    <script>
+        const otpInputs = document.querySelectorAll(".otp-input input");
+
+        otpInputs.forEach((input, index) => {
+            input.addEventListener("input", () => {
+                if (!/^[0-9]?$/.test(input.value)) {
+                    input.value = "";
+                }
+
+                if (input.value.length === 1 && index < otpInputs.length - 1) {
+                    otpInputs[index + 1].focus();
+                }
+
+                if (input.value.length === 0 && index > 0) {
+                    otpInputs[index - 1].focus();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./src/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./src/fonts/font.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+
+<body>
+    <header class="py-4 fixed top-0 left-0 w-full bg-white z-50">
+        <div class="container">
+            <div class="header-wrapper flex items-center gap-2 justify-between">
+                <div class="logo 2xl:w-[249px] w-[190px] flex-none">
+                    <img src="./src/img/logo.svg" alt="logo">
+                </div>
+                <nav
+                    class="absolute top-0 left-[-1000px] w-[300px] h-screen bg-green z-40 transition-all duration-1000 ease-in-out lg:w-auto lg:left-0 lg:relative lg:h-auto lg:bg-transparent">
+                    <ul
+                        class="flex 2xl:gap-10 gap-6 lg:gap-4 items-start lg:p-0 pl-7 pr-4 pt-14 lg:items-center *:2xl:text-a *:lg:text-p *:lg:text-primary text-white lg:flex-row flex-col text-a ">
+                        <li><a href="#" aria-label="">Start</a></li>
+                        <li><a href="#" aria-label="">Wie funktioniert es?</a></li>
+                        <li><a href="#" aria-label="">Features</a></li>
+                        <li><a href="#" aria-label="">Preise</a></li>
+                        <li><a href="#" aria-label="">Häufige Fragen / FAQ</a></li>
+                    </ul>
+                    <div class="close-icon lg:hidden block absolute top-6 right-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="22" width="20" viewBox="0 0 448 512">
+                            <path
+                                d="M342.6 150.6a32 32 0 0 0-45.3-45.3L192 210.7 86.6 105.4a32 32 0 0 0-45.3 45.3L146.7 256 41.4 361.4a32 32 0 0 0 45.3 45.3L192 301.3l105.4 105.3a32 32 0 0 0 45.3-45.3L237.3 256l105.3-105.4z"
+                                fill="#fff"></path>
+                        </svg>
+                    </div>
+                </nav>
+                <div class="login flex items-center 2xl:gap-9 gap-4">
+                    <div class="link sm:block hidden *:2xl:text-a *:text-p *:text-primary">
+                        <a href="#" aria-label="">Anmelden / Login</a>
+                    </div>
+                    <a href="#" class="btn sm:flex hidden " aria-label="">QR-Code erstellen</a>
+                    <div class="menu lg:hidden   block">
+                        <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="22" width="20"
+                            viewBox="0 0 448 512">
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                                style="fill: #143C5D;"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="faq pt-24 sm:pt-36">
+            <div class="max-w-[1200px] mx-auto px-4 space-y-8 xmd:space-y-16">
+                <div class="com-title text-center space-y-5 max-w-[1010px] mx-auto">
+                    <h2 class="text-h2 text-primary">Häufige Fragen / FAQ</h2>
+                    <div class="text text-h5 text-primary space-y-4 *:font-normal">
+                        <p>Hier findest du Antworten auf häufig gestellte Fragen rund um unsere Fotoalbum-App.
+                            <b>Erfahre, wie du Bilder teilst, Alben erstellst und die besten Momente deiner Party
+                                festhältst.</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="faqs space-y-2">
+                    <div class="accrodind ">
+                        <div
+                            class="tilte flex gap-3 py-5 items-center justify-between border-b-2 border-white-100 border-solid">
+                            <h3 class="text-h6 text-black ">Funktioniert es wirklich
+                                mit allen Geräten?</h3>
+                            <div class="icon">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 1.75V8.5H18.75C19.5469 8.5 20.25 9.20312 20.25 10C20.25 10.8438 19.5469 11.5 18.75 11.5H12V18.25C12 19.0938 11.2969 19.75 10.5 19.75C9.65625 19.75 9 19.0938 9 18.25V11.5H2.25C1.40625 11.5 0.75 10.8438 0.75 10C0.75 9.20312 1.40625 8.5 2.25 8.5H9V1.75C9 0.953125 9.65625 0.25 10.5 0.25C11.2969 0.25 12 0.953125 12 1.75Z"
+                                        fill="#212121" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="ans text-a text-primary-200 mt-6 hidden transition-all duration-150 ease-linear">
+                            <p>All things starts with a homepage — Get inspired without breaking your wallet with
+                                premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark
+                                value added activity to beta test. Podcasting operational — change management inside of
+                                workflows.</p>
+                        </div>
+                    </div>
+
+                    <div class="accrodind ">
+                        <div
+                            class="tilte flex gap-3 py-5 items-center justify-between border-b-2 border-white-100 border-solid">
+                            <h3 class="text-h6 text-black ">Funktioniert es wirklich
+                                mit allen Geräten?</h3>
+                            <div class="icon">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 1.75V8.5H18.75C19.5469 8.5 20.25 9.20312 20.25 10C20.25 10.8438 19.5469 11.5 18.75 11.5H12V18.25C12 19.0938 11.2969 19.75 10.5 19.75C9.65625 19.75 9 19.0938 9 18.25V11.5H2.25C1.40625 11.5 0.75 10.8438 0.75 10C0.75 9.20312 1.40625 8.5 2.25 8.5H9V1.75C9 0.953125 9.65625 0.25 10.5 0.25C11.2969 0.25 12 0.953125 12 1.75Z"
+                                        fill="#212121" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="ans text-a text-primary-200 mt-6 hidden transition-all duration-150 ease-linear">
+                            <p>All things starts with a homepage — Get inspired without breaking your wallet with
+                                premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark
+                                value added activity to beta test. Podcasting operational — change management inside of
+                                workflows.</p>
+                        </div>
+                    </div>
+
+                    <div class="accrodind ">
+                        <div
+                            class="tilte flex gap-3 py-5 items-center justify-between border-b-2 border-white-100 border-solid">
+                            <h3 class="text-h6 text-black ">Funktioniert es wirklich
+                                mit allen Geräten?</h3>
+                            <div class="icon">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 1.75V8.5H18.75C19.5469 8.5 20.25 9.20312 20.25 10C20.25 10.8438 19.5469 11.5 18.75 11.5H12V18.25C12 19.0938 11.2969 19.75 10.5 19.75C9.65625 19.75 9 19.0938 9 18.25V11.5H2.25C1.40625 11.5 0.75 10.8438 0.75 10C0.75 9.20312 1.40625 8.5 2.25 8.5H9V1.75C9 0.953125 9.65625 0.25 10.5 0.25C11.2969 0.25 12 0.953125 12 1.75Z"
+                                        fill="#212121" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="ans text-a text-primary-200 mt-6 hidden transition-all duration-150 ease-linear">
+                            <p>All things starts with a homepage — Get inspired without breaking your wallet with
+                                premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark
+                                value added activity to beta test. Podcasting operational — change management inside of
+                                workflows.</p>
+                        </div>
+                    </div>
+
+                    <div class="accrodind ">
+                        <div
+                            class="tilte flex gap-3 py-5 items-center justify-between border-b-2 border-white-100 border-solid">
+                            <h3 class="text-h6 text-black ">Funktioniert es wirklich
+                                mit allen Geräten?</h3>
+                            <div class="icon">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 1.75V8.5H18.75C19.5469 8.5 20.25 9.20312 20.25 10C20.25 10.8438 19.5469 11.5 18.75 11.5H12V18.25C12 19.0938 11.2969 19.75 10.5 19.75C9.65625 19.75 9 19.0938 9 18.25V11.5H2.25C1.40625 11.5 0.75 10.8438 0.75 10C0.75 9.20312 1.40625 8.5 2.25 8.5H9V1.75C9 0.953125 9.65625 0.25 10.5 0.25C11.2969 0.25 12 0.953125 12 1.75Z"
+                                        fill="#212121" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="ans text-a text-primary-200 mt-6 hidden transition-all duration-150 ease-linear">
+                            <p>All things starts with a homepage — Get inspired without breaking your wallet with
+                                premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark
+                                value added activity to beta test. Podcasting operational — change management inside of
+                                workflows.</p>
+                        </div>
+                    </div>
+
+                    <div class="accrodind ">
+                        <div
+                            class="tilte flex gap-3 py-5 items-center justify-between border-b-2 border-white-100 border-solid">
+                            <h3 class="text-h6 text-black ">Funktioniert es wirklich
+                                mit allen Geräten?</h3>
+                            <div class="icon">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 1.75V8.5H18.75C19.5469 8.5 20.25 9.20312 20.25 10C20.25 10.8438 19.5469 11.5 18.75 11.5H12V18.25C12 19.0938 11.2969 19.75 10.5 19.75C9.65625 19.75 9 19.0938 9 18.25V11.5H2.25C1.40625 11.5 0.75 10.8438 0.75 10C0.75 9.20312 1.40625 8.5 2.25 8.5H9V1.75C9 0.953125 9.65625 0.25 10.5 0.25C11.2969 0.25 12 0.953125 12 1.75Z"
+                                        fill="#212121" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="ans text-a text-primary-200 mt-6 hidden transition-all duration-150 ease-linear">
+                            <p>All things starts with a homepage — Get inspired without breaking your wallet with
+                                premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark
+                                value added activity to beta test. Podcasting operational — change management inside of
+                                workflows.</p>
+                        </div>
+                    </div>
+
+                    <div class="accrodind ">
+                        <div
+                            class="tilte flex gap-3 py-5 items-center justify-between border-b-2 border-white-100 border-solid">
+                            <h3 class="text-h6 text-black ">Funktioniert es wirklich
+                                mit allen Geräten?</h3>
+                            <div class="icon">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 1.75V8.5H18.75C19.5469 8.5 20.25 9.20312 20.25 10C20.25 10.8438 19.5469 11.5 18.75 11.5H12V18.25C12 19.0938 11.2969 19.75 10.5 19.75C9.65625 19.75 9 19.0938 9 18.25V11.5H2.25C1.40625 11.5 0.75 10.8438 0.75 10C0.75 9.20312 1.40625 8.5 2.25 8.5H9V1.75C9 0.953125 9.65625 0.25 10.5 0.25C11.2969 0.25 12 0.953125 12 1.75Z"
+                                        fill="#212121" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="ans text-a text-primary-200 mt-6 hidden transition-all duration-150 ease-linear">
+                            <p>All things starts with a homepage — Get inspired without breaking your wallet with
+                                premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark
+                                value added activity to beta test. Podcasting operational — change management inside of
+                                workflows.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="price py-10 sm:py-14 xlg:py-20">
+            <div class="max-w-[1440px] mx-auto px-4 space-y-7 xmd:space-y-10">
+                <div class="com-title text-center space-y-5">
+                    <h2 class="text-h2 text-primary">Du kannst sofort starten!</h2>
+                </div>
+                <div class="price-plans flex items-center gap-8 flex-wrap ">
+                    <div
+                        class="price-plan w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.33%-22px)] rounded-3xl border-[1px] border-solid border-primary-300 p-4 lg:p-10 flex flex-col gap-5 lg:gap-10">
+                        <div class="dm-title text-p text-primary">
+                            <div class="title flex items-start justify-between gap-3 flex-wrap">
+                                <h3 class="text-h4 text-primary">Kostenlos</h3>
+                            </div>
+                            <p>Ideal zum Testen</p>
+                        </div>
+                        <ul
+                            class="banner-list text-text text-primary *:pl-[32px] *:relative *:after:absolute space-y-3 *:after:bg-true-icon *:after:left-0 *:after:top-1 *:after:w-4 *:after:h-4 *:after:content['']">
+                            <li>QR-Code zum Teilen</li>
+                            <li>30 Bilder in SD-Auflösung</li>
+                            <li>30 Tage Speicherzeit</li>
+                        </ul>
+                        <a href="#" aria-label="" class="btn-b w-full">Jetzt kostenlos ausprobieren </a>
+                    </div>
+
+                    <div
+                        class="price-plan w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.33%-22px)] rounded-3xl border-[1px] border-solid border-primary p-4 lg:p-10 flex flex-col gap-5 lg:gap-10">
+                        <div class="dm-title text-p text-primary">
+                            <div class="title flex items-start justify-between gap-3 flex-wrap">
+                                <h3 class="text-h4 text-primary">69 €</h3>
+                                <div class="dm-text text-a font-medium text-primary">
+                                    <p>All Inklusive</p>
+                                </div>
+                            </div>
+                            <p>einmalige Kosten, für <b>1 Jahr Speicherzeit</b></p>
+                        </div>
+                        <ul
+                            class="banner-list text-text text-primary *:pl-[32px] *:relative *:after:absolute space-y-3 *:after:bg-true-icon *:after:left-0 *:after:top-1 *:after:w-4 *:after:h-4 *:after:content['']">
+                            <li>Unbegrenzt viele HD-Bilder</li>
+                            <li>Unbegrenzt viele HD-Videos</li>
+                            <li>Unbegrenzt viele Ordner</li>
+                            <li>Auswahl aus 10 Layouts</li>
+                            <li>Liken und Kommentieren</li>
+                            <li>Druckvorlagen</li>
+                            <li>Passwortschutz</li>
+                        </ul>
+                        <a href="#" aria-label=""
+                            class="btn-b w-full bg-primary text-white hover:text-primary hover:bg-transparent">Jetzt
+                            “All Inklusive” buchen </a>
+                    </div>
+
+                    <div
+                        class="price-plan w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.33%-22px)] rounded-3xl border-[1px] border-solid border-primary p-4 lg:p-10 flex flex-col gap-5 lg:gap-10">
+                        <div class="dm-title text-p text-primary">
+                            <div class="title flex items-start justify-between gap-3 flex-wrap">
+                                <h3 class="text-h4 text-primary">99 €</h3>
+                                <div class="dm-text text-a font-medium text-primary">
+                                    <p>Traumhochzeit</p>
+                                </div>
+                            </div>
+                            <p>einmalige Kosten, für <b>2 Jahre Speicherzeit</b></p>
+                        </div>
+                        <ul
+                            class="banner-list text-text text-primary *:pl-[32px] *:relative *:after:absolute space-y-3 *:after:bg-true-icon *:after:left-0 *:after:top-1 *:after:w-4 *:after:h-4 *:after:content['']">
+                            <li><b>Alles aus All Inklusive</b></li>
+                            <li>Fotospiele</li>
+                            <li>30 ausgedruckte Fotos in 10x15 cm</li>
+                            <li>Bilder mit eigenem Branding versehen</li>
+                            <li>zusätzliche Druckvorlagen</li>
+                            <li>Individuelle URL möglich</li>
+                        </ul>
+                        <a href="#" aria-label=""
+                            class="btn-b w-full bg-primary text-white hover:text-primary hover:bg-transparent">Jetzt
+                            “Traumhochzeit” buchen </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-primary py-10 lg:py-14">
+        <div class="max-w-[1440px] mx-auto px-4 flex flex-wrap gap-5 sm:gap-10">
+            <div class="lg:w-[calc(33.33%-27px)] w-full flex flex-col space-y-4 ">
+                <div class="logo">
+                    <a href="#" aria-label=""><img src="./src/img/f-logo.svg" alt="logo"></a>
+                </div>
+                <div class="text text-a text-white">
+                    <a href="mailto:hochzeitsbilder.app" aria-label=""><b>Hochzeitsbilder.app</b></a>
+                    <p>Die einzigartige App um Bilder eurer Feier einfach zu teilen und einzigartige Momente
+                        festzuhalten.
+                    </p>
+                </div>
+            </div>
+            <div class="sm:w-[calc(50%-20px)] w-full lg:w-[calc(33.33%-27px)] flex flex-col gap-5">
+                <div class="title text-white text-text font-semibold">
+                    <p>Hochzeitsbilder.app</p>
+                </div>
+                <ul class="*:text-p *:text-white-light_op space-y-4">
+                    <li><a href="#" aria-label="">Wie funktioniert es?</a></li>
+                    <li><a href="#" aria-label="">Features</a></li>
+                    <li><a href="#" aria-label="">Preise</a></li>
+                    <li><a href="#" aria-label="">Häufige Fragen / FAQ</a></li>
+                    <li><a href="#" aria-label="">Affiliate Programm / Wiederverkäufer</a></li>
+                </ul>
+            </div>
+            <div class="sm:w-[calc(50%-20px)] w-full lg:w-[calc(33.33%-27px)] flex flex-col gap-5">
+                <div class="title text-white text-text font-semibold">
+                    <p>Rechtliches</p>
+                </div>
+                <ul class="*:text-p *:text-white-light_op space-y-4">
+                    <li><a href="#" aria-label="">Datenschutzerklärung</a></li>
+                    <li><a href="#" aria-label="">Impressum</a></li>
+                    <li><a href="#" aria-label="">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./src/js/owl.carousel.min.js"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

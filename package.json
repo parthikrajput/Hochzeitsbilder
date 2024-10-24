@@ -1,0 +1,21 @@
+{
+  "name": "hochzeitsbilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "watch": "npx tailwindcss -i ./style.css -o ./src/css/main.css --watch",
+    "build": "npx tailwindcss -i ./style.css -o ./src/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.9"
+  }
+}

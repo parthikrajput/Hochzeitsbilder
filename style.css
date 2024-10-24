@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-sans;
+  }
+
+  img {
+    @apply object-cover;
+  }
+
+  .btn {
+    @apply rounded-xl py-[15px] justify-center text-center px-[24px] text-p text-white font-semibold bg-green hover:bg-transparent hover:text-green border-[1px] border-solid border-green transition-all duration-75 ease-in flex w-fit items-center gap-4;
+  }
+
+  .btn-b {
+    @apply rounded-xl py-[15px] justify-center text-center px-[24px] text-p text-primary font-semibold bg-transparent hover:bg-primary hover:text-white border-[1px] border-solid border-primary transition-all duration-75 ease-in flex w-fit items-center gap-4;
+  }
+
+  b,
+  strong {
+    @apply font-semibold;
+  }
+
+  .company .owl-carousel .owl-item img {
+    @apply w-auto;
+  }
+
+  .company .owl-carousel .owl-item:nth-child(odd) {
+    @apply translate-y-[50%];
+  }
+
+  .company .owl-stage-outer {
+    @apply h-[400px];
+  }
+
+  .owl-dots {
+    @apply flex items-center gap-2 pt-5;
+  }
+
+  .owl-dots button.owl-dot {
+    @apply w-[12px] h-[12px] rounded-full bg-gray;
+  }
+
+  .owl-dots button.owl-dot.active {
+    @apply bg-primary;
+  }
+
+  .progress-bar {
+    @apply mx-auto w-[300px] h-[12px] rounded-full bg-gray-100 relative;
+  }
+  .progress-fill {
+    @apply h-full w-0 bg-green rounded-full transition-all duration-75 ease-in;
+  }
+  label {
+    @apply text-a text-black;
+  }
+  input {
+    @apply w-full border-[1px] border-solid border-black py-[13px] px-4 rounded-[4px] text-p text-black-100;
+  }
+  input::placeholder {
+    @apply text-p text-black-100;
+  }
+  .step-2-btn {
+    @apply rounded-full py-[13px] px-6 text-a text-gray-200 flex items-center gap-2 w-full border-[1px] border-solid border-white-200;
+  }
+}
